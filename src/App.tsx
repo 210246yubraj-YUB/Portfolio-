@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "motion/react";
 import {
   Cpu,
   Globe,
+  Facebook,
   Network,
   Cloud,
   Code2,
@@ -883,8 +884,8 @@ export default function App() {
                     icon: <Linkedin className="w-5 h-5" />,
                     href: "https://www.linkedin.com/in/yubraj-shahi-02bb6b36a",
                   },
-                  { icon: <Github className="w-5 h-5" />, href: "#" },
-                  { icon: <Globe className="w-5 h-5" />, href: "#" },
+                  { icon: <Github className="w-5 h-5" />, href: "https://github.com/210246yubraj-YUB" },
+                  { icon: <Facebook className="w-5 h-5" />, href: "https://www.facebook.com/roboshiksha" },
                 ].map((social, i) => (
                   <a
                     key={i}
